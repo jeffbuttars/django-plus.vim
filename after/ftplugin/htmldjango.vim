@@ -8,8 +8,8 @@ let b:orig_omnifunc = &l:omnifunc
 setlocal omnifunc=djangoplus#complete
 
 if exists(':UltiSnipsEdit')
-  " Add HTML snippets
-  UltiSnipsAddFiletypes html
+  " Add HTML Django snippets
+  UltiSnipsAddFiletypes htmldjango
 endif
 
 
